@@ -1,0 +1,8 @@
+tensorflow
+tensorflowjs
+opencv-python
+numpy
+flask
+pyserial
+pillow
+matplotlib
