@@ -1,0 +1,41 @@
+AI Object Detection Radar System
+Setup Instructions
+
+1. Install Required Software
+
+* Install Python (version 3.x).
+* Install Arduino IDE.
+* Install a modern web browser such as Google Chrome.
+
+2. Clone the Project Repository
+   Download or clone the project from GitHub to your local system.
+
+3. Install Python Dependencies
+   Open the terminal in the project folder and run:
+   pip install -r requirements.txt
+
+4. Setup Hardware Components
+
+* Connect the Ultrasonic Sensor (HC-SR04) to the Arduino UNO.
+* Connect Arduino UNO to the computer using a USB cable.
+
+5. Upload Arduino Code
+
+* Open Arduino IDE.
+* Load the Arduino program for ultrasonic sensor distance measurement.
+* Select the correct COM port and upload the code to Arduino UNO.
+
+6. Connect Camera
+   Ensure the webcam is properly connected and accessible to the browser.
+
+7. Run the Application
+   Start the backend server (if applicable) and open the web interface in the browser.
+
+8. Allow Camera Access
+   When prompted by the browser, allow camera permission so the system can capture live video.
+
+9. Start Object Detection
+   The system will begin detecting objects using the AI model and display results on the radar GUI with voice alerts.
+
+10. Verify Output
+    Check the radar interface, speaker alerts, and object detection boxes on the screen to confirm that the system is functioning correctly.
